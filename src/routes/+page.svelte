@@ -10,12 +10,19 @@
     { getString($language, "subtitle") }
 </h2>
 
-<div class="flex flex-col items-center mt-20">
-    <a href="https://t.me/ProjectGDL" target="_blank"
-    class="p-5 bg-blue-500 flex items-center text-white rounded-lg text-lg font-bold hover:bg-blue-600 transition-colors">
-        <Icon icon="ic:baseline-telegram" height="30" class="inline-block mr-2" />
-        { getString($language, "telegram") }
-    </a>
+<div class="flex flex-col items-center mt-10">
+    <div class="flex flex-col items-center mt-20 max-w-2xl w-full">
+        <a href="https://t.me/projectgdliso" target="_blank"
+        class="p-5 bg-blue-500 flex items-center w-full justify-center text-white rounded-lg text-lg font-bold hover:bg-blue-600 transition-colors">
+            <Icon icon="ic:baseline-telegram" height="30" class="inline-block mr-2" />
+            { getString($language, "telegram") }
+        </a>
+        <a href="https://github.com/GMDProjectL" target="_blank"
+        class="mt-5 p-5 bg-black text-white dark:bg-white flex items-center w-full justify-center dark:text-black rounded-lg text-lg font-bold hover:bg-zinc-800 dark:hover:bg-zinc-200 transition-colors">
+            <Icon icon="mdi:github" height="30" class="inline-block mr-2" />
+            { getString($language, "source-code") }
+        </a>
+    </div>
 </div>
 
 <div class="flex flex-col items-center mt-20">
