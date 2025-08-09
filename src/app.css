@@ -15,8 +15,8 @@
     animation: move-animation 10s infinite alternate ease-in-out;
 
     @media (width <= 48rem) {
-        width: 25px;
-        height: 25px;
+        width: 15px;
+        height: 15px;
     }
 }
 
