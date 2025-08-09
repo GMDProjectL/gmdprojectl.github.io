@@ -3,3 +3,34 @@
 * {
     font-family: 'Inter', 'Adwaita Sans', 'Helvetica', 'Arial', sans-serif;
 }
+
+.bg-glow {
+    width: 45px;
+    height: 45px;
+    box-shadow: inset 0 0 400px 400px rgba(255, 255, 255, 0.1);
+    filter: blur(10px);
+    z-index: -1;
+    scale: 10;
+    position: fixed;
+    animation: move-animation 10s infinite alternate ease-in-out;
+
+    @media (width <= 48rem) {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+.bg-glow:nth-child(1) {
+    left: 100%;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes move-animation {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(200%);
+    }
+}
