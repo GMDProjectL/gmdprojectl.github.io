@@ -16,19 +16,13 @@
     animation: move-animation 10s infinite alternate ease-in-out;
 
     @media (width <= 48rem) {
-        left: 50%;
-        animation: none;
-        position: relative;
+        display: none;
     }
 }
 
 .bg-glow:nth-child(1) {
     left: 100%;
     animation-direction: alternate-reverse;
-
-    @media (width <= 48rem) {
-        display: none;
-    }
 }
 
 @keyframes move-animation {
