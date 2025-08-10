@@ -6,10 +6,11 @@
     export let icon: string;
     export let label: string;
     export let secondary: boolean = false;
+    export let url: string = "";
 </script>
 
 <div class="px-5 w-full md:px-0">
-<a href="https://t.me/projectgdliso" 
+<a href={url} 
     target="_blank" 
     class={
         "p-5 w-full flex items-center justify-center rounded-lg text-lg font-bold transition-colors"

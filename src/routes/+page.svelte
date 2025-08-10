@@ -12,9 +12,9 @@
 
 <div class="flex flex-col items-center mt-10">
     <div class="flex flex-col items-center mt-20 max-w-2xl w-full">
-        <Button icon="ic:baseline-telegram" label="telegram" />
+        <Button icon="ic:baseline-telegram" label="telegram" url="https://t.me/projectgdliso" />
         <div class="mt-10"></div>
-        <Button icon="mdi:github" label="source-code" secondary />
+        <Button icon="mdi:github" label="source-code" url="https://github.com/GMDProjectL" secondary />
     </div>
 </div>
 
