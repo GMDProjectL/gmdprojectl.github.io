@@ -13,7 +13,7 @@
     z-index: -1;
     scale: 10;
     position: fixed;
-    animation: move-animation 25s infinite alternate ease-in-out;
+    animation: move-animation 15s infinite alternate ease-in-out;
 
     @media (width <= 48rem) {
         display: none;
@@ -27,10 +27,10 @@
 
 @keyframes move-animation {
     0% {
-        transform: translateY(0%);
+        top: 0%;
     }
 
     100% {
-        transform: translateY(200%);
+        top: 100%;
     }
 }
