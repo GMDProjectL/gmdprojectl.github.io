@@ -9,7 +9,7 @@
 </script>
 
 <div class="w-full max-w-2xl flex flex-col items-center justify-center p-4 gap-5">
-    <Lightbox>
+    <Lightbox enableClickToClose showCloseButton={false} transitionDuration={200}>
     <img src={url} alt={getString($language, caption)} 
         class={"w-full h-auto" + (noStyle ? "" : " rounded-lg shadow-lg")} />
     </Lightbox>
